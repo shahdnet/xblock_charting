@@ -13,3 +13,12 @@ text {
   width: 500px;
   border: 2px;
 }
+
+div.charts_block h3 {
+  text-align: left;
+  direction: ltr;
+}
+body.rtl div.charts_block h3 {
+  text-align: right;
+  direction: rtl;
+}

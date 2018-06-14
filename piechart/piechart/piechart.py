@@ -84,6 +84,7 @@ class PieChartXBlock(XBlock):
         
         #parameters sent to browser for XBlock html page
         html = template.render(Context({
+            'display_name': self.display_name,
         }))
         
         frag = Fragment(html)
